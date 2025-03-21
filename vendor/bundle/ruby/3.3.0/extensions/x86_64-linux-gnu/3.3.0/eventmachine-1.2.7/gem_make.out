@@ -1,0 +1,19 @@
+current directory: /home/vboxuser/Downloads/optimized-salvium-main/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.3 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/vboxuser/Downloads/optimized-salvium-main/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250318-30865-9ec21y sitelibdir\=./.gem.20250318-30865-9ec21y clean
+
+current directory: /home/vboxuser/Downloads/optimized-salvium-main/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250318-30865-9ec21y sitelibdir\=./.gem.20250318-30865-9ec21y
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/vboxuser/Downloads/optimized-salvium-main/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250318-30865-9ec21y sitelibdir\=./.gem.20250318-30865-9ec21y install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250318-30865-9ec21y
+
+current directory: /home/vboxuser/Downloads/optimized-salvium-main/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250318-30865-9ec21y sitelibdir\=./.gem.20250318-30865-9ec21y clean

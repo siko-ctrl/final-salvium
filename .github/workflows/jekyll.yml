@@ -24,6 +24,9 @@ jobs:
     - name: Clean vendor
       run: rm -rf vendor/bundle
       
+    - name: Add platform to bundle lockfile
+      run: bundle lock --add-platform x86_64-linux
+      
     - name: Bundle install
       run: |
         bundle config path vendor/bundle
